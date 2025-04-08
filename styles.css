@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+article {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ddd;
+}
+
+article:nth-child(2) {
+    background-image: url('https://via.placeholder.com/800x300');
+    background-size: cover;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    margin: 20px;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
